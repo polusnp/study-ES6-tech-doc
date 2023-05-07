@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 10px;
+    line-height: 1.5;
+}
+
+
+#navbar {
+    font-size: 2rem;
+    position: fixed;
+    min-width: 290px;
+    border-right: solid 2px rgba(0, 0, 0, 0.8);
+    background-color: rgba(204, 255, 255, 0.1);
+    color: orangered;
+    line-height: 2;
+    width: 300px;
+    height: 100%;
+}
+
+#navbar ul {
+    padding: 0;
+    overflow-y: auto;
+    overflow-x: hidden;
+  }
+
+#navbar li {
+    border-bottom: solid 2px rgba(0, 0, 0, 0.8);
+    overflow: hidden;
+    margin-left: 10px;
+}
+
+
+
+
+
+
+a {
+    color: orangered;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.visit {
+    font-size: 0.8em;
+    text-align: center;
+    border-bottom: solid 2px rgba(0, 0, 0, 0.8);
+    text-decoration: none;
+}
+
+.visit a{
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 10px;
+    font-weight: bolder;
+}
+
+.visit a:hover {
+    background-color: orangered;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+header {
+    color: orangered;
+    font-weight: bold;
+    font-size: 2.5rem;  
+}
+
+
+nav header {
+    border-bottom: solid 2px rgba(0, 0, 0, 0.8);
+    text-align: center;
+    padding: 40px;
+}
+
+#main-doc {
+    font-size: 1.5rem;
+    position: absolute;
+    left: 300px;
+    padding: 0px 20px 0 20px;
+    background: radial-gradient(
+        rgba(204, 255, 255, 0.3),
+        rgba(224, 224, 224, 0.3)
+    );
+}
+
+hr {
+    border: 2px solid rgba(0, 0, 0, 0.8);
+    border-radius: 5px;
+    margin: 1em 0 1em 0;
+}
+
+code {
+    display: block;
+    text-align: left;
+    white-space: pre-line;
+    position: relative;
+    word-break: normal;
+    word-wrap: normal;
+    line-height: 1.5;
+    background-color: rgba(0, 0, 0, 0.1);
+    padding-bottom: 20px;
+    margin: 15px 0 15px 0;
+    border-radius: 5px;
+  }
+  
+  @media only screen and (max-width: 815px) {
+
+  
+    #navbar {
+      position: fixed;
+      max-height: 275px;
+      z-index: 1;
+      font-size: 1rem;
+      border-right: none;
+      min-width: 120px;
+      width: 140px;
+    }
+
+    .visit {
+        font-size: 0.5rem;
+        text-align: center;
+        border-bottom: solid 2px rgba(0, 0, 0, 0.8);
+        text-decoration: none;
+    }
+
+    nav header {
+        border-bottom: solid 2px rgba(0, 0, 0, 0.8);
+        text-align: center;
+        padding: 10px;
+        font-size: 1rem;
+    }
+
+    header {
+        font-size: 1rem;  
+    }
+  
+    #main-doc {
+      position: absolute;
+      left: 140px;
+      font-size: 0.8rem;
+    }
+  }
