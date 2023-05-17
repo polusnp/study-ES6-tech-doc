@@ -36,11 +36,6 @@ html {
     margin-left: 10px;
 }
 
-
-
-
-
-
 a {
     color: orangered;
     text-decoration: none;
@@ -71,7 +66,6 @@ header {
     font-size: 2.5rem;  
 }
 
-
 nav header {
     border-bottom: solid 2px rgba(0, 0, 0, 0.8);
     text-align: center;
@@ -83,10 +77,7 @@ nav header {
     position: absolute;
     left: 300px;
     padding: 0px 20px 0 20px;
-    background: radial-gradient(
-        rgba(204, 255, 255, 0.3),
-        rgba(224, 224, 224, 0.3)
-    );
+    background-color: honeydew; 
 }
 
 hr {
