@@ -9,6 +9,7 @@ html {
     font-family: 'Titillium Web', sans-serif;
     font-size: 10px;
     line-height: 1.5;
+    background-color: mintcream;
 }
 
 
@@ -17,7 +18,7 @@ html {
     position: fixed;
     min-width: 290px;
     border-right: solid 2px rgba(0, 0, 0, 0.8);
-    background-color: rgba(204, 255, 255, 0.1);
+    background-color: mintcream;
     color: orangered;
     line-height: 2;
     width: 300px;
